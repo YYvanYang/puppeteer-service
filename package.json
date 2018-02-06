@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2 start app.js --name puppeteer-api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "puppeteer": "^1.0.0"
+  }
+}
